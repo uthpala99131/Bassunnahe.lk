@@ -185,7 +185,7 @@
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="imagess/background/3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption  d-md-block">
-                        <h3>Bassunnahe.lk <br>W E L C O M E ! ! ! <br></h3>
+                        <h3>Bassunnahe.lk <br>W E L C O M E !!! <br></h3>
                         <p>
                           The Largest & Famous Labor hiring Website in Sri Lanka<br>
                         </p>
@@ -292,7 +292,7 @@
                 <div class="col-md-2 col-sm-6 py-3 py-md-0">
                 <a href="homes.php?user=Mason">
                   <div class="card">
-                     <img src="imagess/icons/pngegg (24).png" alt="imge">Mason
+                     <img src="imagess/icons/pngegg (24).png" alt="imge"><h4>Mason</h4>
                  </div>
                 </a>
               </div>
