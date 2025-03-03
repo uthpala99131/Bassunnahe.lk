@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background:#b2744c;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Wrapper styles */
+.wrapper {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Form styles */
+form {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box box-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #999;
+}
+
+.remember-forgot {
+    margin-bottom: 15px;
+}
+
+.remember-forgot label {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+
+    background-color: #b2744c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7c3709;
+}
+
+.register-link {
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #007bff;
+}

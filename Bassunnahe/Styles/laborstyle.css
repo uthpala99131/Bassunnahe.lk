@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    background: #f7f5f7f2;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar{
+    width: 1px;
+}
+#navbar{
+    background-color: #ff6600;
+    position: -webkit-sticky;
+    position: sticky;
+}
+#logo img{
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 40px;
+}
+.nav-item{
+    text-decoration-color: white;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 50px;
+}
+#navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    margin-left: 10px;
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    font-weight: bold;
+    background: black;
+    color: white;
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+.heading3{
+    text-align: center;
+    
+    margin-bottom: 50px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+
+
+
+
+#menu{
+    width: 100%;
+    margin-top: 60px;
+
+}
+#container2{
+    margin-top: 50px;
+
+}
+#menu .card{
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+}
+.star i{
+    color: #ff5e00;
+}
+#menu h3{
+    text-align: center;
+    color: #ff6600;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p{
+    font-size: 16px;
+    color: #ff5e00;
+    padding-top: 10px;
+    text-align: center;
+}

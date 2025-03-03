@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar{
+    width: 2px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    background: url(imagess/construction.png), 100%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 40px;
+    padding: 60px;
+}
+
+.container form{
+    width: 100%;
+    padding: 30px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.row{
+    display:inline-block;
+    
+    flex-wrap: wrap;
+}
+
+.col{
+    
+    margin-bottom: 15px; /* Added margin bottom for spacing */
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.title{
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.input-box{
+    margin-bottom: 15px; /* Adjusted margin bottom for spacing */
+}
+
+.input-box span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box input, .input-box select{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    font-size: 12px;
+    height: 34px;
+    box-shadow: var(--box-shadow);
+}
+
+.flex{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Added flex wrap */
+}
+
+.flex .input-box{
+    flex: 1 1 48%; /* Adjusted flex basis for responsiveness */
+}
+.input-box .image{
+    width: 300px;
+}
+.input-box .image img{
+    width: 200px;
+    height: 33px;
+    filter: drop-shadow(0 0 1px whitesmoke);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+}
+
+.btnn{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: #b2744c;
+    transition: 0.5s ease;
+    cursor: pointer;
+    display: block;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.btnn:hover{
+    background: #b2744c;
+    color: white;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container form{
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer page start*/
+#footer{
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: 11px;
+    
+    
+
+}
+#footer .footer-logo img{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.social-links i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-links i:hover{
+    background:#b2744c;
+    color: white;
+}
+
+.credits a{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px white;
+
+
+}
+.credits a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.credits a:hover{
+    color: #f7f5f2;
+}
+.credits a span{
+    color:white;
+
+}
+.copyright span{
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+.arrow{
+    position: fixed;
+    border-radius: 10px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --box-shadow:0 10px 15px rgba(0,0,0,0.1);
+    --border:0 5px 10px rgba(0,0,0,0.1);
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background:#b2744c;
+    box-shadow: var(--box-shadow);
+    height: 8vh;
+}
+.header .logo{
+    font-weight: bolder;
+    font-size: 26px;
+    color: black;
+    text-decoration:none;
+}
+.header span{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.header .navbar a{
+font-size: 12px;
+margin: 10px;
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+.header .navbar a:hover{
+    font-size: 16px;
+    
+    color: orange;
+    }
+.header .icons div{
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    background: #b2744c;
+    color: black;
+    font-size: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.header .icons div:hover{
+    background: white;
+    font-size: 11px;
+}
+.header .search-form{
+    position: absolute;
+    top: 110%; 
+    right: -110%;
+    width: 40%;
+    height: 36px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: var(--box-shadow);
+   align-items: center;
+   
+}
+.header .search-form.active{
+  right: 20px;
+  transition: 0.1s linear;
+
+}
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 14px;
+    color: black;
+    padding:0 15px;
+    align-items: center;
+}
+.header .search-form label{
+    font-size: 22px;
+    padding-right: 15px;
+    color: black;
+    cursor: pointer;
+
+}
+.header .search-form label:hover{
+    color: #b2744c;
+}
+
+.header .login-form{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 350px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    border-radius: 5px;
+    background: #b2744c;
+    text-align: center;
+    
+}
+.header .login-form.active{
+    right: 20px;
+    transition: 0.5s linear;
+}
+.header .login-form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.header .login-form .box{
+    margin: 15px 0;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:16px;
+    color: black;
+    text-transform: none;
+    width: 90%;
+    height: 36px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.header .login-form .F{
+   margin-top: 25px;
+    font-size: 14px;
+    padding: 1px 0;
+    color: black;
+    
+    }
+.header .login-form p{
+   
+font-size: 14px;
+padding: 1px 0;
+color: black;
+
+}
+.header .login-form p a{
+    text-decoration: underline;
+    color: #002a56;
+    font-weight: bold;
+    
+ }
+
+.header .login-form p a:hover{
+        text-decoration: underline;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+}
+.header .login-form .btn{
+                width: 150px;
+                height: 30px;
+                margin-top: 20px;
+                background: white;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: bold;
+                border: none;
+                color: #b2744c;
+                transition: 0.5s ease;
+                cursor: pointer;
+                margin-bottom: 14px;
+}
+.header .login-form .btn:hover{
+        background: #b2744c;
+        color: white;
+        border: 1px solid white;
+}
+#menu-btn{
+    display: none;
+}
+
+
+@media screen and (max-width:992px){
+    .header .navbar{
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 150px;
+        box-shadow: var(--box-shadow);
+        border-radius: 5px;
+        background: #b2744c;
+    }
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .navbar.active{
+        right: 20px;
+        transition: 0.5s linear;
+    }
+    .header .navbar a{
+        font-size: 12px;
+        margin: 10px 15px;
+        display: block;
+    }
+
+}
+@media screen and (max-width:768px){
+    .header .search-form{
+        width: 60%;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .header .login-form{
+       width: 250px;
+    }
+    .header .login-form p{
+   
+        font-size: 10px;
+        padding: 1px 0;
+        color: black;
+        
+        }
+        .header .login-form .F{
+   
+            font-size: 10px;
+            padding: 1px 0;
+            color: black;
+            
+            }
+            .header .search-form{
+                width: 90%;
+                height: 30px;
+            }
+}
